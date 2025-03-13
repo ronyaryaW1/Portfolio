@@ -3,7 +3,7 @@
 @theme {
   --color-lightHover: #fcf4ff;
   --color-darkHover: #2a004a;
-  --color-darkTheme: '#11001f';
+  --color-darkTheme: #11001f;
   --font-Outfit: [Outfit, sans-serif];
   --font-Ovo: [Ovo, sans-serif];
   --shadow-black: 4px 4px 0 #000;
@@ -11,6 +11,7 @@
   --grid-template-columns-auto: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 *{
   font-family: Outfit;
