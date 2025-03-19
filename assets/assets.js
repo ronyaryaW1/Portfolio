@@ -35,6 +35,13 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import project1 from './ClearCargoWeb.png';
+import project2 from './ClearCargoMobile.png';
+import project3 from './work3.png';
+import project4 from './work4.png'
+import project5 from './project5.png'
+import project6 from './project6.png'
+import project7 from './project7.png'
 
 export const assets = {
     user_image,
@@ -78,42 +85,66 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Clear Cargo Dashboard',
+        description: 'Cargo Clearance Dashboard is a web application designed to monitor the real-time status and progress of shipments.',
+        bgImage: project1,
+        techStack: ['React.js', 'Typescript', 'Tailwind Css', 'Context API', 'REST API', 'Figma', 'Git']
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Clear Cargo Mobile',
+        description: 'Cargo Clearance Mobile is a Progressive Web App (PWA) designed to help users efficiently manage cargo shipments. The application enables users to manage and monitor progress with ease.',
+        bgImage: project2,
+        techStack: ['React.js', 'Typescript', 'Tailwind Css', 'Context API', 'REST API', 'Figma', 'Git']
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Subscription Web Component',
+        description: 'This component allows users to subscribe to available products. I provides a configurable content framework that can be managed through pages or shortcodes in WordPress.',
+        bgImage: project3,
+        techStack: ['React.js', 'Javascript', 'CSS', 'Context API', 'REST API', 'Git']
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Dashboard Web Component',
+        description: 'The Dashboard Page is a web component designed to help users manage shipments. This page includes sorting, filtering, and search functionalities for efficient tracking and management.',
+        bgImage: project4,
+        techStack: ['React.js', 'Javascript', 'Tailwind CSS', 'Context API', 'REST API', 'Git']
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Other Web Components',
+        description: 'Developed various web components for the company website, including the Dashboard Page, Subscription Page, Setup Payment page integrate with stripe, App Container and Setup Company Page. These components are designed to be embedded into WordPress as the main website after the build process.',
+        bgImage: project4,
+        techStack: ['React.js', 'Javascript', 'Tailwind CSS', 'SCSS', 'Context API', 'Git']
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Cubeforall Rewards',
+        description: 'Developed and maintained applications using React Native. Collaborated with the team to build features, analyze, and fix bugs alongside the QA team. Published the app on the Google Play Store and App Store.',
+        bgImage: project5,
+        techStack: ['React Native', 'Javascript', 'Context API', 'CSS', 'Git']
     },
+    {
+        title: 'CUBE Social Media',
+        description: `CUBE Social Media is a mobile application designed to enhance user connectivity and interaction. I worked in a small team consisting of two Mobile Developers and one Product Owner, contributing to the development and improvement of several key features:  
+
+        - Dashboard – A main page where users can explore and select recommended matches.  
+        - User Profile – A detailed user profile page displaying user information.  
+        - Authentication – A login and account registration system.  
+        - Edit Profile – A page allowing users to update their personal information.  
+        - Custom User Recommendation Filter – A feature that filters user recommendations based on user preferences.`,
+        bgImage: project7,
+        techStack: ['React Native', 'JavaScript', 'Firebase', 'Redux', 'Git']
+    },
+    {
+        title: 'My Zurich Advisor',
+        description: `My Zurich Advisor is an insurance application designed for recruiting and registering Zurich agents.  
+I worked as part of a team of four Mobile Developers, following the SCRUM methodology to ensure efficient development and collaboration.`,
+        bgImage: project6,
+        techStack: ['React Native', 'JavaScript', 'WatermelonDB', 'Redux', 'Axios', 'Git']
+    }
+    
 ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' }
 ]
 
 export const infoList = [
@@ -125,3 +156,24 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const experienceList = [
+    {
+        title: 'Software Engineer React Native & React JS',
+        company: 'Cargo Community Network - Singapore',
+        date: 'Oct 2022 - Present',
+        jobDesc: ['Develop and maintain web applications using React.js and mobile applications with React Native.', 'Work with the team to design and develop new features and improve existing features.', 'Write clean, maintainable, and efficient code.', 'Collaborate with the team to build features and enhance application performance.', 'Optimize UI/UX for better responsiveness and user-friendliness.', 'Contribute to the development of reusable components using Storybook.', 'Coordinate with the backend team for API integration.']
+    },
+    {
+        title: 'Freelance React Native Developer',
+        company: 'CUBE SOCIAL MEDIA - Remote',
+        date: 'Jan 2022 - August 2023',
+        jobDesc: ['Develop and maintain applications using React Native.', 'Collaborate in a small team with one other developer to build a social media application.', 'Work closely with the Product Owner to design and implement features.', 'Analyze and fix bugs in collaboration with the QA team.', 'Write code documentation to ensure maintainability.', 'Integrate Firebase for database management and notifications.']
+    },
+    {
+        title: 'Mobile React Native Developer',
+        company: 'PT Quadrant Synergy International (QSI) – Jakarta, Indonesia',
+        date: 'Nov 2020 - September 2022',
+        jobDesc: ['Developed and maintained applications using React Native.', 'Collaborated with the team to build features and enhance application performance.', 'Analyzed and fixed bugs in collaboration with the QA team.', 'Wrote code documentation to ensure maintainability.', 'Created a React Native basic learning module for new employees.', 'Worked using the SCRUM methodology.']
+    }
+]

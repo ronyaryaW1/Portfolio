@@ -41,7 +41,7 @@ const Header = () => {
 			<motion.p
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
-				transition={{ duration: 0.7, delay: 0.7 }}
+				transition={{ duration: 0.7, delay: 0.6 }}
 				className='max-w-2xl mx-auto font-Ovo'
 			>
 				I am a frontend developer from Purwokerto, Indonesia with 4 years of experience in multiple companies
@@ -51,7 +51,7 @@ const Header = () => {
 				<motion.a
 					initial={{ y: 30, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}
-					transition={{ duration: 0.6, delay: 1 }}
+					transition={{ duration: 0.6, delay: 0.5 }}
 					href='#contact'
 					className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
 				>
@@ -65,8 +65,8 @@ const Header = () => {
 				<motion.a
 					initial={{ y: 30, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}
-					transition={{ duration: 0.6, delay: 1.2 }}
-					href='/sample-resume.pdf'
+					transition={{ duration: 0.7, delay: 0.6 }}
+					href='/FRONTEND_DEV_RONY.pdf'
 					download
 					className='px-10 py-3 rounded-full border  border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white'
 				>
