@@ -15,8 +15,10 @@ const Header = () => {
 					src={assets.profile_img}
 					alt=''
 					className='rounded-full w-32'
+					layout='fixed'
+					objectFit='cover'
 				/>
-			</motion.div>
+			</motion.div>	
 			<motion.h3
 				initial={{ y: -20, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}
