@@ -38,8 +38,8 @@ const About = () => {
 						I am a Frontend Developer with 4 years of experience building high-performance web applications using React.js and mobile applications with React Native. Passionate about crafting intuitive and engaging UI/UX, I have a good
 						understanding of state management, API integration.
 						<br />
-						Beyond coding, I thrive in fast-paced environments, quickly adapting to new technologies and challenges. My problem-solving mindset enables me to turn complex requirements into seamless digital experiences. I am eager to
-						contribute my skills to innovative teams that value clean, scalable, and user-centric development.
+						Beyond coding, I thrive in fast-paced environments, quickly adapting to technologies and new challenges. With a problem-solving mindset, I transform complex requirements into efficient and user-friendly digital solutions. I
+						specialize in JavaScript and TypeScript, focusing on building scalable and maintainable applications. I enjoy collaborating with innovative teams that prioritize user experience and high-quality development.
 					</p>
 				</motion.div>
 			</motion.div>

@@ -32,13 +32,6 @@ export const Navbar = () => {
 
 	return (
 		<>
-			{/* <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden '>
-				<Image
-					src={assets.header_bg_color}
-					alt=''
-					className='w-full'
-				/>
-			</div> */}
 			<nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScrolled ? ' bg-white/50 backdrop-blur-md shadow-sm dark:bg-darkTheme dark:shadow-white/20' : ''}`}>
 				<a href='#top'>
 					<Image
@@ -88,7 +81,7 @@ export const Navbar = () => {
 						<Image
 							src={darkMode ? assets.sun_icon : assets.moon_icon}
 							alt=''
-							className='w-6'
+							className='w-6 cursor-pointer'
 						/>
 					</button>
 
@@ -96,7 +89,7 @@ export const Navbar = () => {
 						className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 !font-Ovo dark:border-white/50'
 						href='#contact'
 					>
-						Contact
+						contact me
 						<Image
 							src={darkMode ? assets.arrow_icon_dark : assets.arrow_icon}
 							alt='arrow_icon'

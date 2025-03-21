@@ -15,6 +15,8 @@ const Header = () => {
 					src={assets.profile_img}
 					alt=''
 					className='rounded-full w-32'
+					layout='fixed'
+					objectFit='cover'
 				/>
 			</motion.div>
 			<motion.h3
@@ -52,10 +54,10 @@ const Header = () => {
 					initial={{ y: 30, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.6, delay: 0.5 }}
-					href='#contact'
+					href='https://www.linkedin.com/in/rony-arya-wijaya-627b22193/'
 					className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
 				>
-					contact me{' '}
+					connect with me{' '}
 					<Image
 						src={assets.right_arrow_white}
 						alt=''
