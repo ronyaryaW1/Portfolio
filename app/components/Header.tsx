@@ -10,6 +10,7 @@ const Header = () => {
 				initial={{ scale: 0 }}
 				whileInView={{ scale: 1 }}
 				transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+				whileHover={{ scale: 2 }}
 			>
 				<Image
 					src={assets.profile_img}
@@ -46,7 +47,7 @@ const Header = () => {
 				transition={{ duration: 0.7, delay: 0.6 }}
 				className='max-w-2xl mx-auto font-Ovo'
 			>
-				I am a frontend developer from Purwokerto, Indonesia with 4 years of experience in multiple companies
+				Available for freelance work & permanent roles! 🚀
 			</motion.p>
 
 			<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -56,6 +57,7 @@ const Header = () => {
 					transition={{ duration: 0.6, delay: 0.5 }}
 					href='https://www.linkedin.com/in/rony-arya-wijaya-627b22193/'
 					className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
+					target='_blank'
 				>
 					connect with me{' '}
 					<Image
